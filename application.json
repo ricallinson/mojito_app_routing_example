@@ -1,0 +1,21 @@
+[
+    {
+        "settings": [ "master" ],
+
+        "mojitDirs": [
+            "./node_modules/*"
+        ],
+        
+        "specs": {
+            "color": {
+                "type": "mojito_mojit_html_frame",
+                "config": {
+                    "deploy": true,
+                    "child": {
+                        "type": "simple"
+                    }
+                }
+            }
+        }
+    }
+]

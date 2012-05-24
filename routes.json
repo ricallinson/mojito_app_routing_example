@@ -1,0 +1,15 @@
+[
+    {
+        "settings": [ "master" ],
+
+        "default": {
+            "path": "/color/:color",
+            "call": "color.index"
+        },
+
+        "catch_all": {
+            "path": "/",
+            "call": "color.index"
+        }
+    }
+]
