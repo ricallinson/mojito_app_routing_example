@@ -18,7 +18,12 @@ YUI.add('simple', function(Y, NAME) {
 
             ac.assets.addCss('./index.css');
 
-            ac.done({hasColor: true, color: color});
+            ac.done({
+                hasColor: true,
+                color: color,
+                blue: ac.url.make('color', 'index', {color: 'blue'}),
+                green: ac.url.make('color', 'index', {color: 'green'})
+            });
         }
 
     };

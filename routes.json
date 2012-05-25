@@ -3,13 +3,21 @@
         "settings": [ "master" ],
 
         "default": {
-            "path": "/color/:color",
+            "path": "/use/:color",
             "call": "color.index"
         },
 
         "catch_all": {
             "path": "/",
             "call": "color.index"
+        }
+    },
+
+    {
+        "settings": [ "lang:de" ],
+
+        "default": {
+            "path": "/verwenden/:color"
         }
     }
 ]

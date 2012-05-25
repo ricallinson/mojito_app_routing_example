@@ -11,6 +11,7 @@
                 "type": "mojito_mojit_html_frame",
                 "config": {
                     "deploy": true,
+                    "title": "Square Thing",
                     "child": {
                         "type": "simple"
                     }
